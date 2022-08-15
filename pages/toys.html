@@ -39,15 +39,27 @@
     <main>
         <section>
             <h1>Toy for kids</h1>
-            <a href="/index.html"><span>Home</span></a>
-            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
-            </svg>
-            <a href=""><span>Catalog</span></a>
-            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
-            </svg>
-            <span>Toys</span>
+            <ul>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
+                    </svg>
+                </li>
+                <li>
+                    <a href="/pages/catalog.html">Catalog</a>
+                </li>
+                <li>
+                    <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
+                    </svg>
+                </li>
+                <li>
+                    <a href="/pages/toys.html">Toys</a>
+                </li>
+            </ul>
         </section>
         <section>
             <h2></h2>
@@ -86,10 +98,15 @@
                             <input type="radio" name="shipping" id="fast" checked>
                             <label for="fast">Fast shipping</label>
                     </fieldset>
-                <span>Amount</span>
-                <div>0-5</div>
-                <div>10-20</div>
-                <div>20-50</div>
+                    <fieldset>
+                        <legend>Amount</legend>
+                        <input type="radio" name="amount" id="few"checked>
+                        <label for="few">0-5</label>
+                        <input type="radio" name="amount" id="more">
+                        <label for="more">10-20</label>
+                        <input type="radio" name="amount" id="many">
+                        <label for="many">20-50</label>
+                    </fieldset>
                 <button type="submit">Apply</button>
             </form>
         </section>
@@ -98,50 +115,66 @@
                 <li>
                     <img src="" alt="shark chair cover">
                     <p>SHARKY BEAN BAG CHAIR COVER</p>
-                    <span>$60.00 USD</span>
+                    <p>$60.00 USD</p>
                 </li>
                 <li>
                     <img src="" alt="brass deco frames">
                     <p>BRASS DECO FRAMES</p>
-                    <span>$66.00 USD</span>
+                    <p>$66.00 USD</p>
                 </li>
                 <li>
                     <img src="" alt="apron">
                     <p>CIBO FULL APRON</p>
-                    <span>$60.00 USD</span>
+                    <p>$60.00 USD</p>
                 </li>
                 <li>
                     <img src="" alt="gumball machine">
                     <p>GATCHA GATCHA GUMBALL MACHINE</p>
-                    <span>$56.00 USD</span>
+                    <p>$56.00 USD</p>
                 </li>
                 <li>
                     <img src="" alt="candle">
                     <p>CHRISTMAS ADVENT SCENTED CANDLE</p>
-                    <span>$29.00 USD</span>
+                    <p>$29.00 USD</p>
                 </li>
                 <li>
                     <img src="" alt="tea light">
                     <p>TANGLE SPINNING TEA LIGHT</p>
-                    <span>$56.00 USD</span>
+                    <p>$56.00 USD</p>
                 </li>
             </ul>
-            <div>
-                <button type="button"><svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
-                    </svg></button>
-                <button type="button">1</button>
-                <button type="button">2</button>
-                <button type="button">3</button>
-                <button type="button">4</button>
-                <button type="button"><svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
-                    </svg></button>
-            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
-    <footer>
-        <div>
+    <footer class="footer">
+        <section>
             <h3>Navigation</h3>
             <ul>
                 <li>
@@ -163,8 +196,8 @@
                     <a href="#">Shop By Designer</a>
                 </li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section>
             <h3>Customer Information</h3>
             <ul>
                 <li>
@@ -186,8 +219,8 @@
                     <a href="#">Search</a>
                 </li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section>
             <h3>Connect</h3>
             <form action="#">
                 <input type="email" placeholder="Email">
@@ -223,17 +256,19 @@
                     </a>
                 </li>
             </ul>
-        </div>
-        <div>
-            <p>Company Rating</p>
-            <img src="#" alt="five stars">
-        </div>
-        <div>
+        </section>
+            <fieldset>
+                <legend>Company Rating</legend>
+                <div class="rating_group">
+                    <input class="rating_star" type="radio" name="rating">
+                    <input class="rating_star" type="radio" name="rating">
+                    <input class="rating_star" type="radio" name="rating">
+                    <input class="rating_star" type="radio" name="rating">
+                    <input class="rating_star" type="radio" name="rating">
+                </div>
+            </fieldset>
             <p>Copyright © 2018 Dlk • Design Life Kids</p>
-        </div>
-        <div>
             <p>Web Design — Direct Line Development</p>
-        </div>
     </footer>
 </body>
 </html>
