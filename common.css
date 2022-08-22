@@ -1,13 +1,15 @@
+/* стили для футера */
+
 .footer{
     background-color: #434343;
 }
 
 .rating_group{
     position: relative;
-    width: 10em;
-    height: 2em;
+    width: 65px;
+    height: 13px;
     background-image: url(/static/icons/star.svg);
-    background-size: 2em auto;
+    background-size: 13px auto;
     background-repeat: repeat-x;
 }
 
@@ -15,8 +17,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 2em;
-    height: 2em;
+    width: 13px;
+    height: 13px;
     appearance: none;
     font-size: inherit;
     margin: 0;
@@ -24,25 +26,25 @@
 
 .rating_star:nth-of-type(1){
     z-index: 5; 
-    width: 2em;   
+    width: 13px;   
 }
 
 .rating_star:nth-of-type(2){
     z-index: 4; 
-    width: 4em;   
+    width: 26px;   
 }
 
 .rating_star:nth-of-type(3){
     z-index: 3;
-    width: 6em;    
+    width: 39px;    
 }
 
 .rating_star:nth-of-type(4){
     z-index: 2;
-    width: 8em;    
+    width: 52px;    
 }
 
 .rating_star:nth-of-type(5){
     z-index: 1; 
-    width: 10em;   
+    width: 65px;   
 }
