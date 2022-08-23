@@ -1,0 +1,86 @@
+.banner__wrapper{
+    background-color: #EEE4DB;
+    height: 372px;
+    margin-top: 129px;
+}
+
+.banner__number{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: rgba(30, 6, 6, 0.05);
+    position: absolute;
+    width: 61px;
+    height: 74px;
+    left: 138px;
+    top: 248px;
+}
+
+.stick-1, .stick-2, .stick-3, .stick-4{
+    position: absolute;
+    width: 31px;
+    height: 3px;
+    left: 141px;
+    border: none;
+} 
+
+.stick-1{
+    top: 332px;
+    background: rgba(30, 6, 6, 0.6);
+}
+
+.stick-2, .stick-3, .stick-4{
+    background: #D6CAC2;
+}
+
+.stick-2{
+    top: 346px;
+}
+
+.stick-3{
+    top: 360px;
+}
+
+.stick-4{
+    top: 374px;
+}
+
+.banner__description{
+    display: inline-block;
+    margin-left: 133px;
+    margin-top: 89px;
+}
+
+.design{
+    margin-top: 20px;
+}
+
+.banner__link{
+    color: white;
+    font-size: 16px;
+    background-color: #000;
+    padding: 9px 22px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.banner__shipping{
+    background-color: #C29974;
+    display: flex;
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__shipping_text{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.banner__image{
+    position: relative;
+    right: 0;
+    bottom: 89px;
+    display: inline-block;
+    vertical-align: top;
+}
