@@ -2,52 +2,53 @@
     background-color: #EEE4DB;
     height: 372px;
     margin-top: 129px;
+    display: flex;
+    position: relative;
+}
+
+.banner__switcher{
+    display: flex;
+    flex-direction: column;
+    padding-left: 31px;
+    width: 90px;
 }
 
 .banner__number{
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
+    font-weight: 200;
     color: rgba(30, 6, 6, 0.05);
+    line-height: 74px;
     position: absolute;
-    width: 61px;
-    height: 74px;
-    left: 138px;
-    top: 248px;
+    top: 17px;
+    left: 28px;
+}
+
+.banner__stick{
+    position: absolute;
+    top: 101px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 11px;
 }
 
 .stick-1, .stick-2, .stick-3, .stick-4{
-    position: absolute;
     width: 31px;
     height: 3px;
-    left: 141px;
     border: none;
-} 
+}
 
 .stick-1{
-    top: 332px;
     background: rgba(30, 6, 6, 0.6);
 }
 
-.stick-2, .stick-3, .stick-4{
+.stick-2, .stick-3, .stick-4 {
     background: #D6CAC2;
 }
 
-.stick-2{
-    top: 346px;
-}
-
-.stick-3{
-    top: 360px;
-}
-
-.stick-4{
-    top: 374px;
-}
-
 .banner__description{
-    display: inline-block;
-    margin-left: 133px;
     margin-top: 89px;
+    margin-left: 44px;
 }
 
 .design{
@@ -63,6 +64,14 @@
     display: inline-block;
 }
 
+.banner__image{
+    width: 635px;
+    height: 461px;
+    position: absolute;
+    bottom: 0;
+    left: 445px;
+}
+
 .banner__shipping{
     background-color: #C29974;
     display: flex;
@@ -75,12 +84,4 @@
     color: white;
     text-transform: uppercase;
     font-size: 12px;
-}
-
-.banner__image{
-    position: relative;
-    right: 0;
-    bottom: 89px;
-    display: inline-block;
-    vertical-align: top;
 }
