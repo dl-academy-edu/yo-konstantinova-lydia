@@ -9,7 +9,7 @@
 .banner__switcher{
     display: flex;
     flex-direction: column;
-    padding-left: 31px;
+    padding-left: 28px;
     width: 90px;
 }
 
@@ -19,17 +19,14 @@
     font-weight: 200;
     color: rgba(30, 6, 6, 0.05);
     line-height: 74px;
-    position: absolute;
-    top: 17px;
-    left: 28px;
+    padding-top: 17px;
 }
 
 .banner__stick{
-    position: absolute;
-    top: 101px;
     display: flex;
     flex-direction: column;
     column-gap: 11px;
+    padding-left: 3px;
 }
 
 .stick-1, .stick-2, .stick-3, .stick-4{
