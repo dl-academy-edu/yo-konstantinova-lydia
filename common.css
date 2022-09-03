@@ -97,6 +97,45 @@ h2{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* навигация по страницам */
+
+.title__section{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pages__navlist{
+    display: flex;
+    gap: 20px;
+}
+
+.pages__navlist_current{
+    opacity: 0.5;
+}
+
+/* пагинация */
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.pagination__pages{
+    display: flex;
+    gap: 64px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pagination__current_page{
+    color: #C29974;
+    margin-right: 3px;
+}
+
 /* стили для футера */
 
 .footer{

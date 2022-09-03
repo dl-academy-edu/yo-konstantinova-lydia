@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/common.css">
+    <link rel="stylesheet" href="/styles/catalog.css">
     <title>Catalog</title>
 </head>
 <body>
@@ -39,10 +46,10 @@
                 Contact  Us
             </a>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="title__section">
             <h1>Category Products</h1>
-            <ul>
+            <ul class="pages__navlist italic small">
                 <li>
                     <a href="/index.html">Home</a>
                 </li>
@@ -51,46 +58,48 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
                     </svg>
                 </li>
-                <li>
+                <li class="pages__navlist_current">
                     <a href="/pages/catalog.html">Catalog</a>
                 </li>
             </ul>
         </section>
-        <section>
-            <ul>
-                <li>
-                    <img src="/static/images/apparel_kids.png" alt="apparel kids pic">
-                    <a href="#">APPAREL KIDS</a>
-                </li>
-                <li>
-                    <img src="/static/images/holiday_shop.png" alt="holiday shop pic">
-                    <a href="#">HOLIDAY SHOP</a>
-                </li>
-                <li>
-                    <img src="/static/images/toys.png" alt="toys pic">
-                    <a href="/pages/toys.html">TOYS</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="/static/images/accessories.png" alt="apparel kids pic">
-                    <a href="#">ACCESSORIES</a>
-                </li>
-                <li>
-                    <img src="/static/images/flamingo.png" alt="holiday shop pic">
-                    <a href="#">SALE</a>
-                </li>
-                <li>
-                    <img src="/static/images/apparel_adults.png" alt="toys pic">
-                    <a href="#">APPAREL<br>ADULTS</a>
-                </li>
-            </ul>
+        <section class="catalog__section">
+                <ul class="catalog__first_row">
+                    <li class="category__list_item first_item">
+                        <img src="/static/images/apparel_kids.png" alt="sweater">
+                        <a href="#" class="category__name first_name bold big">APPAREL KIDS</a>
+                    </li>
+                    <li class="category__list_item second_item">
+                        <img src="/static/images/holiday_shop.png" alt="christmas stocking" class="category__list_second_img">
+                        <a href="#" class="category__name second_name bold big">HOLIDAY SHOP</a>
+                    </li>
+                    <li class="category__list_item third_item">
+                        <img src="/static/images/toys.png" alt="deer" class="category__list_third_img">
+                        <a href="/pages/toys.html" class="category__name third_name bold big">TOYS</a>
+                    </li>
+                </ul>
+                <ul class="catalog__second_row">
+                    <li class="category__list_item second_row__item second_row__first_item">
+                        <img src="/static/images/accessories.png" alt="apparel kids pic">
+                        <a href="#" class="category__name second_row__first_name bold big">ACCESSORIES</a>
+                    </li>
+                    <li class="category__list_item second_row__item">
+                        <img src="/static/images/flamingo.png" alt="holiday shop pic">
+                        <a href="#" class="category__name second_row__second_name bold big">SALE</a>
+                    </li>
+                    <li class="category__list_item second_row__item">
+                        <img src="/static/images/apparel_adults.png" alt="toys pic">
+                        <a href="#" class="category__name second_row__third_name bold big">APPAREL<br>ADULTS</a>
+                    </li>
+                </ul>
         </section>
-        <section>
+        <section class="product__description">
             <h2>Product Description</h2>
-            <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
-            <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-            <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+            <div class="product__description_text">
+                <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
+                <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
+                <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+            </div>
         </section>
     </main>
     <footer class="footer">
