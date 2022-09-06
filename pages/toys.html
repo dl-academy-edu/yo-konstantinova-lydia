@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/toys.css">
     <title>Toy for kids</title>
 </head>
 <body>
@@ -32,17 +39,16 @@
             </nav>
         </div>
             <a href="/pages/contact.html" class="contact">
-                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="17.21" height="17.58" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11.2614 0.26001C7.83851 0.26001 5.05615 3.08001 5.05615 6.52001C5.05615 7.98001 5.55657 9.30002 6.37727 10.38L0.492277 16.32C0.151988 16.68 0.151988 17.24 0.492277 17.58C0.67243 17.76 0.892618 17.84 1.1128 17.84C1.35301 17.84 1.57319 17.76 1.75334 17.58L7.63834 11.62C8.65921 12.36 9.90026 12.78 11.2414 12.78C14.6643 12.78 17.4467 9.96001 17.4467 6.52001C17.4667 3.06001 14.6843 0.26001 11.2614 0.26001ZM11.2614 11.2C8.71926 11.2 6.65751 9.10001 6.65751 6.52001C6.65751 3.94001 8.71926 1.84001 11.2614 1.84001C13.8036 1.84001 15.8653 3.94001 15.8653 6.52001C15.8653 9.10001 13.8036 11.2 11.2614 11.2ZM14.364 6.60001C14.324 6.94001 14.0238 7.20001 13.6835 7.20001C13.6434 7.20001 13.6234 7.20001 13.5834 7.20001C13.2031 7.14001 12.9428 6.80001 12.9829 6.42001C13.123 5.38001 11.962 4.84001 11.902 4.82001C11.5617 4.66001 11.4015 4.24001 11.5617 3.90001C11.7218 3.56001 12.1221 3.40001 12.4825 3.54001C12.5625 3.56001 14.6443 4.52001 14.364 6.60001ZM12.9028 8.12001C13.0429 8.26001 13.143 8.48002 13.143 8.68002C13.143 8.90002 13.0629 9.10001 12.9028 9.24002C12.7627 9.38002 12.5425 9.48002 12.3423 9.48002C12.1422 9.48002 11.922 9.40001 11.7819 9.24002C11.6417 9.10001 11.5417 8.88002 11.5417 8.68002C11.5417 8.48002 11.6217 8.26001 11.7819 8.12001C11.922 7.98001 12.1422 7.88002 12.3423 7.88002C12.5425 7.88002 12.7427 7.96001 12.9028 8.12001Z" fill="#1E0606"/>
                     </svg>
-                    
-                Contact  Us
+                <p class="bold">Contact  Us</p>
             </a>
     </header>
     <main>
-        <section>
+        <section class="title__section container">
             <h1>Toy for kids</h1>
-            <ul>
+            <ul class="pages__navlist italic small">
                 <li>
                     <a href="/index.html">Home</a>
                 </li>
@@ -59,94 +65,115 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z" fill="#1E0606"/>
                     </svg>
                 </li>
-                <li>
+                <li class="pages__navlist_current">
                     <a href="/pages/toys.html">Toys</a>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2></h2>
-            <form action="#">
-                    <fieldset>
-                        <legend>Cost</legend>
-                        <label for="cost">
-                            1<input type="range" id="cost" min="0" max="500" step="1" value="150">500
-                        </label>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Color</legend>
-                        <ul>
-                            <li>
-                                <input type="checkbox" id="black" checked>
-                                <label for="black">Black</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="blue">
-                            <label for="blue">Blue</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="green">
-                            <label for="green">Green</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="white">
-                            <label for="white">White</label>
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Delivery</legend>
-                            <input type="radio" name="shipping" id="free">
-                            <label for="free">Free shipping</label>
-                            <input type="radio" name="shipping" id="fast" checked>
-                            <label for="fast">Fast shipping</label>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Amount</legend>
-                        <input type="radio" name="amount" id="few"checked>
-                        <label for="few">0-5</label>
-                        <input type="radio" name="amount" id="more">
-                        <label for="more">10-20</label>
-                        <input type="radio" name="amount" id="many">
-                        <label for="many">20-50</label>
-                    </fieldset>
-                <button type="submit">Apply</button>
-            </form>
+        <section class="filter__section">
+            <div class="container">
+                <h2 class="hidden">Filters</h2>
+                <form action="#" class="filter__wrap">
+                        <fieldset class="border_none filter__cost">
+                            <label for="cost" class="filter__name bold">Cost
+                            </label>
+                            <input type="range" id="cost" min="0" max="500" step="1" value="150" class="input__range">
+                            <div class="cost__range">
+                                <span>1</span>
+                                <span>500</span>
+                            </div>
+                        </fieldset>
+                        <fieldset class="border_none filter__color">
+                            <legend class="filter__name bold">Color</legend>
+                            <ul class="filter__color_list">
+                                <li class="filter__color_list_item">
+                                    <input type="checkbox" id="black" class="checkbox" checked>
+                                    <label for="black">Black</label>
+                                </li>
+                                <li class="filter__color_list_item">
+                                    <input type="checkbox" id="blue" class="checkbox">
+                                    <label for="blue">Blue</label>
+                                </li>
+                                <li class="filter__color_list_item">
+                                    <input type="checkbox" id="green" class="checkbox">
+                                    <label for="green">Green</label>
+                                </li>
+                                <li class="filter__color_list_item">
+                                    <input type="checkbox" id="white" class="checkbox">
+                                    <label for="white">White</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset class="border_none filter__delivery">
+                            <legend class="filter__name bold">Delivery</legend>
+                            <div class="filter__delivery__shippping">
+                                <input type="radio" name="shipping" id="free" class="delivery__radio fisrt__radio">
+                                <label for="free" class="delivery__label">Free shipping</label>
+                            </div>   
+                            <div class="filter__delivery__shippping">
+                                <input type="radio" name="shipping" id="fast" class="delivery__radio" checked>
+                                <label for="fast">Fast shipping</label>
+                            </div> 
+                        </fieldset>
+                        <fieldset class="border_none filter__amount">
+                            <legend class="filter__name bold">Amount</legend>
+                            <input type="radio" name="amount" id="few" class="amount__radio" checked>
+                            <label for="few" class="amount__label amount__label_few">0-5</label>
+                            <input type="radio" name="amount" id="more" class="amount__radio">
+                            <label for="more" class="amount__label">10-20</label>
+                            <input type="radio" name="amount" id="many" class="amount__radio">
+                            <label for="many" class="amount__label">20-50</label>
+                        </fieldset>
+                        <button type="submit" class="bold button button__apply">Apply</button>
+                </form>
+            </div>
         </section>
-        <section>
-            <ul>
-                <li>
+        <section class="container">
+            <ul class="toys__list">
+                <li class="toys__list_item">
                     <img src="/static/images/shark.jpg" alt="shark chair cover">
-                    <p>SHARKY BEAN BAG CHAIR COVER</p>
-                    <p>$60.00 USD</p>
+                    <div class="toys__list_text">
+                        <p>SHARKY BEAN BAG CHAIR COVER</p>
+                        <p class="bold">$60.00 USD</p>
+                    </div>
                 </li>
-                <li>
+                <li class="toys__list_item">
                     <img src="/static/images/brass.jpg" alt="brass deco frames">
-                    <p>BRASS DECO FRAMES</p>
-                    <p>$66.00 USD</p>
+                    <div class="toys__list_text">
+                        <p>BRASS DECO FRAMES</p>
+                        <p class="bold">$66.00 USD</p>
+                    </div>
                 </li>
-                <li>
+                <li class="toys__list_item">
                     <img src="/static/images/apron.jpg" alt="apron">
-                    <p>CIBO FULL APRON</p>
-                    <p>$60.00 USD</p>
+                    <div class="toys__list_text">
+                        <p>CIBO FULL APRON</p>
+                        <p class="bold">$60.00 USD</p>
+                    </div>
                 </li>
-                <li>
+                <li class="toys__list_item">
                     <img src="/static/images/gumball.jpg" alt="gumball machine">
-                    <p>GATCHA GATCHA GUMBALL MACHINE</p>
-                    <p>$56.00 USD</p>
+                    <div class="toys__list_text">
+                        <p>GATCHA GATCHA GUMBALL MACHINE</p>
+                        <p class="bold">$56.00 USD</p>
+                    </div>
                 </li>
-                <li>
+                <li class="toys__list_item">
                     <img src="/static/images/candle.jpg" alt="candle">
-                    <p>CHRISTMAS ADVENT SCENTED CANDLE</p>
-                    <p>$29.00 USD</p>
+                    <div class="toys__list_text">
+                        <p>CHRISTMAS ADVENT SCENTED CANDLE</p>
+                        <p class="bold">$29.00 USD</p>
+                    </div>
                 </li>
-                <li>
+                <li class="toys__list_item">
                     <img src="/static/images/light.jpg" alt="tea light">
-                    <p>TANGLE SPINNING TEA LIGHT</p>
-                    <p>$56.00 USD</p>
+                    <div class="toys__list_text">
+                        <p>TANGLE SPINNING TEA LIGHT</p>
+                        <p class="bold">$56.00 USD</p>
+                    </div>
                 </li>
             </ul>
-            <ul>
+            <ul class="pagination">
                 <li>
                     <a href="#">
                         <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,18 +181,20 @@
                         </svg>
                     </a>
                 </li>
-                <li>
-                    <a href="#">1</a>
-                </li>
-                <li>
-                    <a href="#">2</a>
-                </li>
-                <li>
-                    <a href="#">3</a>
-                </li>
-                <li>
-                    <a href="#">4</a>
-                </li>
+                <ul class="pagination__pages bold">
+                    <li>
+                        <a href="#" class="pagination__current_page">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                </ul>
                 <li>
                     <a href="#">
                         <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">

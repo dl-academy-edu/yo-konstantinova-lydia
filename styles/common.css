@@ -15,14 +15,14 @@ body{
 
 .container{
     max-width: 1180px;
-    margin: 0 110px;
+    margin: 0 auto;
 }
 
 /* стили для хедера */
 
 .header{
     display: flex;
-    margin: 48px 110px 0 110px;
+    margin-top: 48px;
     align-items: center;
     text-transform: uppercase;
     justify-content: space-between;
@@ -95,6 +95,7 @@ h2{
     cursor: pointer;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+    border: none;
 }
 
 /* навигация по страницам */
@@ -367,7 +368,7 @@ h2{
 .checkbox::before{
     content: '';
     display: inline-flex;
-    align-items: center;
+    /* align-items: center; */
     width: 19px;
     height: 19px;
     background-image: url(/static/icons/checkbox_form.svg);
