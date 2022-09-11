@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/common.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styles/common_min.css">
+    <link rel="stylesheet" href="/styles/style_min.css">
     <title>DLK</title>
 </head>
 <body>
@@ -68,7 +68,7 @@
                 <div class="banner__description">
                     <h1 class="bold banner__title">THE OOH NOO COLLECTION</h1>
                     <p class="design italic small">Designed in Slovenia</p>
-                    <button type="button" class="button bold" href="#">EXPLORE NOW</button>
+                    <button type="button" class="button bold btn-js" href="#">EXPLORE NOW</button>
                 </div>
             <img class="banner__image" src="/static/images/monster.png" alt="banner image">
             </div>
@@ -113,7 +113,7 @@
             </div>
         </section>
         <section class="delivery__section container">
-            <img src="/static/images/woman.png" alt="woman">
+            <img width="480" height="559" src="/static/images/woman.png" alt="woman">
             <div class="delivery__section_wrapper">
                 <h2 class="bold delivery__title">Delivery</h2>
                 <ul class="delivery__list italic big">
@@ -299,11 +299,12 @@
                         <input type="checkbox" id="personal data" class="checkbox">
                         <label for="personal data">By clicking on the button, you consent to the processing of your personal data</label>
                     </div>
-                    <button type="submit" class="button  form__button form__button_inactive bold">Submit</button>
+                    <button disabled="" type="submit" class="button  form__button form__button_inactive bold">Submit</button>
                 </fieldset>     
             </form>
             <button type="button" class="close__btn"></button>
         </div>
     </section>
+    <script type="text/javascript" src="/js/index_min.js"></script>
 </body>
 </html>

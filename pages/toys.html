@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/common.css">
-    <link rel="stylesheet" href="/styles/toys.css">
+    <link rel="stylesheet" href="/styles/common_min.css">
+    <link rel="stylesheet" href="/styles/toys_min.css">
     <title>Toy for kids</title>
 </head>
 <body>
@@ -79,7 +79,7 @@
                             </label>
                             <input type="range" id="cost" min="0" max="500" step="1" value="150" class="input__range">
                             <div class="cost__range">
-                                <span>1</span>
+                                <span>0</span>
                                 <span>500</span>
                             </div>
                         </fieldset>
@@ -131,44 +131,50 @@
         <section class="container">
             <ul class="toys__list">
                 <li class="toys__list_item">
-                    <img src="/static/images/shark.jpg" alt="shark chair cover">
+                    <img width="380" height="385" src="/static/images/shark.jpg" alt="shark chair cover" class="toys__list_img">
+                    <a href="" class="toys__list_link">LEARN MORE</a>
                     <div class="toys__list_text">
-                        <p>SHARKY BEAN BAG CHAIR COVER</p>
+                        <p class="toys__list_name">SHARKY BEAN BAG CHAIR COVER</p>
                         <p class="bold">$60.00 USD</p>
                     </div>
                 </li>
                 <li class="toys__list_item">
-                    <img src="/static/images/brass.jpg" alt="brass deco frames">
+                    <img width="380" height="385" src="/static/images/brass.jpg" alt="brass deco frames">
+                    <a href="" class="toys__list_link">LEARN MORE</a>
                     <div class="toys__list_text">
-                        <p>BRASS DECO FRAMES</p>
+                        <p class="toys__list_name">BRASS DECO FRAMES</p>
                         <p class="bold">$66.00 USD</p>
                     </div>
                 </li>
                 <li class="toys__list_item">
-                    <img src="/static/images/apron.jpg" alt="apron">
+                    <img width="380" height="385" src="/static/images/apron.jpg" alt="apron">
+                    <a href="" class="toys__list_link">LEARN MORE</a>
                     <div class="toys__list_text">
-                        <p>CIBO FULL APRON</p>
+                        <p class="toys__list_name">CIBO FULL APRON</p>
                         <p class="bold">$60.00 USD</p>
                     </div>
                 </li>
                 <li class="toys__list_item">
-                    <img src="/static/images/gumball.jpg" alt="gumball machine">
+                    <img width="380" height="385" src="/static/images/gumball.jpg" alt="gumball machine">
+                    <a href="" class="toys__list_link">LEARN MORE</a>
                     <div class="toys__list_text">
-                        <p>GATCHA GATCHA GUMBALL MACHINE</p>
+                        <p class="toys__list_name">GATCHA GATCHA GUMBALL MACHINE</p>
                         <p class="bold">$56.00 USD</p>
                     </div>
                 </li>
                 <li class="toys__list_item">
-                    <img src="/static/images/candle.jpg" alt="candle">
+                    <img width="380" height="385" src="/static/images/candle.jpg" alt="candle">
+                    <a href="" class="toys__list_link">LEARN MORE</a>
                     <div class="toys__list_text">
-                        <p>CHRISTMAS ADVENT SCENTED CANDLE</p>
+                        <p class="toys__list_name">CHRISTMAS ADVENT SCENTED CANDLE</p>
                         <p class="bold">$29.00 USD</p>
                     </div>
                 </li>
                 <li class="toys__list_item">
-                    <img src="/static/images/light.jpg" alt="tea light">
+                    <img width="380" height="382" src="/static/images/light.jpg" alt="tea light">
+                    <a href="" class="toys__list_link">LEARN MORE</a>
                     <div class="toys__list_text">
-                        <p>TANGLE SPINNING TEA LIGHT</p>
+                        <p class="toys__list_name">TANGLE SPINNING TEA LIGHT</p>
                         <p class="bold">$56.00 USD</p>
                     </div>
                 </li>
@@ -176,28 +182,28 @@
             <ul class="pagination">
                 <li>
                     <a href="#">
-                        <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="pagination__arrow_left" width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
                         </svg>
                     </a>
                 </li>
                 <ul class="pagination__pages bold">
                     <li>
-                        <a href="#" class="pagination__current_page">1</a>
+                        <a href="#" class="page pagination__current_page">1</a>
                     </li>
                     <li>
-                        <a href="#">2</a>
+                        <a class="page" href="#">2</a>
                     </li>
                     <li>
-                        <a href="#">3</a>
+                        <a class="page" href="#">3</a>
                     </li>
                     <li>
-                        <a href="#">4</a>
+                        <a class="page" href="#">4</a>
                     </li>
                 </ul>
                 <li>
                     <a href="#">
-                        <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="pagination__arrow_right" width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
                         </svg>
                     </a>
