@@ -479,7 +479,7 @@ h2{
 .popup__wrap{
     display: flex;
     gap: 10px;
-    margin: 113px auto;
+    margin: auto;
 }
 
 .close__btn{
