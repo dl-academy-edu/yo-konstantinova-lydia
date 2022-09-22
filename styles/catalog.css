@@ -44,6 +44,18 @@
     text-decoration: underline;
 }
 
+.first_item{
+    background-color: #DBE4DB;
+}
+
+.second_item{
+    background-color: #EADDD3;
+}
+
+.third_item{
+    background-color: #F8F2DA;
+}
+
 .first_name, .second_name{
     top: 103px;
     bottom: 103px;
@@ -78,6 +90,14 @@
 .second_row__first_item{
     background-color: #D5D4E1;
     padding: 10px 20px;
+}
+
+.second_row__second_item{
+    background-color: #F3D0DB;
+}
+
+.second_row__third_item{
+    background-color: #E5EAF8;
 }
 
 .second_row__first_name{

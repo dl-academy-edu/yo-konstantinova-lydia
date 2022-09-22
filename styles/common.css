@@ -141,6 +141,7 @@ h2{
 
 .button:disabled{
     background-color: #C7C1C1;
+    cursor: auto;
 }
 
 /* навигация по страницам */
@@ -289,6 +290,25 @@ h2{
     padding-top: 3px;
     padding-left: 3px;
     cursor: pointer;
+    padding: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.facebook__link{
+    background-image: url(/static/icons/facebook.svg);
+}
+
+.twitter__link{
+    background-image: url(/static/icons/twitter.svg);
+}
+
+.pinterest__link{
+    background-image: url(/static/icons/pinterest.svg);
+}
+
+.instagram__link{
+    background-image: url(/static/icons/instagram.svg);
 }
 
 .long{
@@ -449,8 +469,6 @@ h2{
     top: 0;
     left: 0;
     display: none;
-    padding-top: 113px;
-    padding-left: 360px;
     z-index: 9999;
 }
 
@@ -461,12 +479,7 @@ h2{
 .popup__wrap{
     display: flex;
     gap: 10px;
-}
-
-.form__button_inactive{
-    background-color: #C1C1C1;
-    border: none;
-    color: #E1E1E1;
+    margin: auto;
 }
 
 .close__btn{
