@@ -1,10 +1,22 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .catalog__section{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .catalog__first_row{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 20px;
 }
@@ -78,6 +90,8 @@
 }
 
 .catalog__second_row{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 20px;
     margin: 23px 0 55px 200px;
@@ -120,8 +134,13 @@
 }
 
 .product__description_text{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 680px;
     gap: 15px;
     margin-top: 25px;
