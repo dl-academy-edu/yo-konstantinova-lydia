@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .filter__section{
     margin-top: 50px;
     background-color: #7D97DA33;
@@ -6,6 +13,8 @@
 }
 
 .filter__wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -15,6 +24,8 @@
 
 .filter__name{
     margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -23,8 +34,12 @@
 }
 
 .cost__range{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 10px;
 }
 
@@ -58,11 +73,18 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .filter__color_list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .filter__color_list_item{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 10px;
     line-height: 21.79px;
@@ -89,7 +111,9 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .delivery__radio{
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     border: 2px solid #C29974;
     width: 20px;
     height: 20px;
@@ -98,7 +122,9 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .delivery__radio:disabled{
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     border: 2px solid #E1CDBA;
     width: 20px;
     height: 20px;
@@ -123,7 +149,9 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .delivery__radio:checked{
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     width: 20px;
     height: 20px;
     background-image: url(/static/icons/radio_checked.svg);
@@ -131,17 +159,23 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .filter__delivery__shippping{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 10px;
 }
 
 .filter__amount{
     margin-left: 69px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .amount__radio{
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
 }
 
 .amount__label{
@@ -171,8 +205,11 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .toys__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-top: 60px;
     gap: 20px;
 }
@@ -184,8 +221,13 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .toys__list_text{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 15px;
     text-align: center;
     margin-top: 25px;

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .banner__wrapper{
     background-color: #EEE4DB;
     margin-top: 127px;
@@ -74,10 +81,16 @@
 
 .banner__shipping{
     background-color: #C29974;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 39px;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .banner__shipping_text{
@@ -92,8 +105,12 @@
 
 .category__list{
     padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 20px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
 }
 
 .category__list_item{
@@ -186,8 +203,12 @@
 }
 
 .category__description{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 21px;
+    -webkit-column-gap: 21px;
+       -moz-column-gap: 21px;
+            column-gap: 21px;
     margin-top: 33px;
 }
 
@@ -214,8 +235,12 @@
 }
 
 .delivery__section{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 60px;
+    -webkit-column-gap: 60px;
+       -moz-column-gap: 60px;
+            column-gap: 60px;
     margin-top: 87px;
 }
 
@@ -228,8 +253,13 @@
 }
 
 .delivery__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 326px;
     margin-top: 6px;
 }
@@ -270,15 +300,25 @@
 }
 
 .awards__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 89px 0 85px 0;
 }
 
 .design_and_contacts__wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 58px;
+    -webkit-column-gap: 58px;
+       -moz-column-gap: 58px;
+            column-gap: 58px;
 }
 
 .design__btn{
